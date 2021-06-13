@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta name="description" content="Site perso" />
+    <meta name="keywords" content="mmi, robin, botella" />
+    <meta name="author" content="Robin Botella" />
+    <title>Tahiti guide</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!---------------- Header ------------------->
+
+    <header class="header">
+        <a id="remonter"></a>
+        <nav class="menu">
+            <h1 id="tahiti" href="#">Tahiti guide</h1>
+            <ul>
+                <li><a class="autrea" href="#description">Description</a></li>
+                <li><a class="autrea" href="#voyager">Voyager</a></li>
+                <li><a class="autrea" href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="section">
+        <h2> Tahiti</h2>
+        <h3>Voila une destination de reve a ne pas manquer !</h3>
+    </section>
+
+    <!---------------- Description ------------------->
+
+    <div id="description" class="description">
+        <div class="description-gauche">
+            <h1 id="bienvenue">Bienvennue a Tahiti</h1>
+            <p id="iaorana"> 'Ia ora na !</p><br><br>
+            <p> Préparez votre séjour et partez pour vous détendre dans ses eaux cristallines. Essayez-vous aux nombreuses activités nautiques, à bord d’un voilier, sur un paddle, ou munit de palmes, masque et tuba pour explorer les fonds marins dans un cadre paradisiaque.</p>
+
+        </div>
+        <div><img class="droite" src="image-description.jpg" alt="paysage"></div>
+    </div>
+
+    <!--------------------- Tahiti et ses iles -------------------->
+    
+    <a id="voyager"></a>
+    <h2 class="iles">Tahiti et ses iles</h2>
+    <section class="info-section">
+        <div class="info-card">
+            <div class="info-photo">
+                <img src="image-societe.jpg">
+            </div>
+            <h2>Iles de la Societe</h2>
+        </div>
+
+        <div class="info-card">
+            <div class="info-photo">
+                <img src="image-tuamotu.jpg">
+            </div>
+            <h2>Iles Tuamotu</h2>
+        </div>
+
+        <div class="info-card">
+            <div class="info-photo">
+                <img src="image-gambier.jpg">
+            </div>
+            <h2>Iles Gambier</h2>
+        </div>
+
+    </section>
+
+
+    <!--------------------- Contact -------------------->
+
+    <div class="formulaire">
+        <div id="contact"></div>
+        <h1 id="titre">Nous contacter</h1>
+        <br><br><br><br>
+        <form method="post" enctype="text/plain" action="mailto:botellarobin@gmail.com">
+
+            <label class="caption" for="fnom">Nom</label>
+            <br>
+            <input class="txt" type="text" id="fnom" name=" Nom " placeholder="Nom">
+            <br>
+
+            <label class="caption" for="fprenom">Prénom</label>
+            <br>
+            <input class="txt" type="text" id="fprenom" name=" Prenom " placeholder="Prénom">
+            <br>
+
+            <label class="caption" for="fmail">Mail</label>
+            <br>
+            <input class="txt" type="text" id="fmail" name=" Mail " placeholder="Adresse mail">
+            <br>
+
+            <label class="caption" for="raison">Raison</label>
+            <br>
+            <select name=" Raison du mail " id="select">
+                <option value=""> -- Choisir la raison -- </option>
+                <option value="Partenariat"> Partenariat </option>
+                <option value="Personelle"> Personelle </option>
+                <option value="Professionelle"> Professionelle </option>
+                <option value="Renseignements"> Renseignements </option>
+            </select>
+
+            <br>
+            <label class="caption" for="message">Message</label>
+            <br>
+            <textarea rows="10" cols="50" name=" Message " placeholder="Entrez votre message"></textarea>
+
+            <!-- Boutons envoyer/effacer/remonter -->
+
+            <br>
+            <button class="envoyer" type="submit" style="vertical-align:middle"> Valider </button>
+            <button class="effacer" type="reset" style="vertical-align:middle"> Effacer </button>
+            <a href="#remonter" id="remonter2" style="vertical-align:middle">Remonter</a>
+
+
+        </form>
+    </div>
+
+    <br><br><br>
+    <p id="nana"> Nana !</p>
+    <br>
+</body>
+
+</html>
